@@ -437,6 +437,6 @@ df = cudf.read_csv("data.csv")
 
 ---
 
-*Good luck on the NCA-GENL exam!*
+*https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/*
 
-*Generated with [Claude Code](https://claude.com/claude-code)*
+---
