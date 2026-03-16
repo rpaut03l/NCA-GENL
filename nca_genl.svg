@@ -1,0 +1,425 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2032" viewBox="0 0 800 2032">
+<defs>
+  <style>
+    .fc { font-family: "Fira Code","Courier New",monospace; }
+    .js { font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif; }
+  </style>
+  <filter id="gnv" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gb" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="gh" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#76b900"/>
+    <stop offset="55%" stop-color="#a3e635"/>
+    <stop offset="100%" stop-color="#00d4ff"/>
+  </linearGradient>
+  <linearGradient id="bnv" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#76b900"/><stop offset="100%" stop-color="#5a8a00"/>
+  </linearGradient>
+  <linearGradient id="bb" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0099cc"/>
+  </linearGradient>
+  <linearGradient id="by" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffd700"/><stop offset="100%" stop-color="#cc9900"/>
+  </linearGradient>
+  <linearGradient id="bp" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#b44eff"/><stop offset="100%" stop-color="#8833cc"/>
+  </linearGradient>
+  <linearGradient id="br" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff6b9d"/><stop offset="100%" stop-color="#cc3366"/>
+  </linearGradient>
+  <linearGradient id="cf" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#76b900" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#76b900" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#76b900" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#76b900" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dp" x="0" y="0" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.6" fill="rgba(118,185,0,0.045)"/>
+  </pattern>
+  <pattern id="hx" x="0" y="0" width="36" height="42" patternUnits="userSpaceOnUse">
+    <path d="M18 2 L34 11 L34 31 L18 40 L2 31 L2 11 Z" fill="none" stroke="rgba(118,185,0,0.03)" stroke-width="0.8"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="800" height="2032" fill="#060811" stroke="none" stroke-width="1" rx="0"/>
+<rect x="0" y="0" width="800" height="2032" fill="url(#dp)" stroke="none" stroke-width="1" rx="0"/>
+<rect x="0" y="0" width="800" height="2032" fill="url(#hx)" stroke="none" stroke-width="1" rx="0"/>
+<circle cx="80" cy="280" r="220" fill="#76b900" opacity="0.022"/>
+<circle cx="720" cy="180" r="180" fill="#00d4ff" opacity="0.018"/>
+<circle cx="400" cy="1000" r="260" fill="#76b900" opacity="0.016"/>
+<rect x="0" y="0" width="800" height="32" fill="#030508" stroke="none" stroke-width="1" rx="0"/>
+<line x1="0" y1="31" x2="800" y2="31" stroke="rgba(118,185,0,0.18)" stroke-width="1"/>
+<circle cx="14" cy="16" r="4" fill="#76b900" filter="url(#gnv)"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="24" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.7)" text-anchor="start" letter-spacing="0" opacity="1">GPU Active</text>
+<text x="94" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="102" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.4)" text-anchor="start" letter-spacing="0" opacity="1">NCA-GENL</text>
+<text x="178" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="186" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.4)" text-anchor="start" letter-spacing="0" opacity="1">50-60 MCQ</text>
+<text x="254" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="262" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.4)" text-anchor="start" letter-spacing="0" opacity="1">60 min</text>
+<text x="306" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="314" y="21" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">$125 USD</text>
+<text x="372" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="380" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.4)" text-anchor="start" letter-spacing="0" opacity="1">Associate</text>
+<text x="442" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(255,255,255,0.1)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="450" y="21" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.4)" text-anchor="start" letter-spacing="0" opacity="1">2 yr validity</text>
+<rect x="714" y="7" width="82" height="18" fill="none" stroke="rgba(118,185,0,0.32)" stroke-width="1" rx="0"/>
+<text x="755" y="20" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="1" opacity="1">REGISTERED</text>
+<rect x="0" y="32" width="800" height="50" fill="#060811" stroke="none" stroke-width="1" rx="0"/>
+<line x1="0" y1="81" x2="800" y2="81" stroke="rgba(118,185,0,0.1)" stroke-width="1"/>
+<text x="22" y="66" class="fc" font-size="14" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="3" opacity="1" filter="url(#gnv)">NCA</text>
+<text x="70" y="66" class="fc" font-size="14" font-weight="400" fill="rgba(226,232,255,0.85)" text-anchor="start" letter-spacing="3" opacity="1">-GENL</text>
+<text x="140" y="66" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA Generative AI</text>
+<text x="282" y="66" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">&amp; LLMs Associate</text>
+<text x="410" y="66" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">  |  NCA-GENL  |  2026</text>
+<rect x="646" y="42" width="66" height="20" fill="none" stroke="rgba(118,185,0,0.25)" stroke-width="1" rx="0"/>
+<text x="679" y="56" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="1" opacity="1">ASSOCIATE</text>
+<rect x="720" y="42" width="58" height="20" fill="none" stroke="rgba(0,212,255,0.22)" stroke-width="1" rx="0"/>
+<text x="749" y="56" class="fc" font-size="8" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="1" opacity="1">2 YEARS</text>
+<text x="22" y="105" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.35)" text-anchor="start" letter-spacing="2" opacity="1">⚡ GPU-Accelerated AI  ·  LLMs  ·  Trustworthy AI</text>
+<text x="22" y="164" class="js" font-size="48" font-weight="800" fill="rgba(226,232,255,0.88)" text-anchor="start" letter-spacing="0" opacity="1">Generative AI</text>
+<text x="22" y="220" class="js" font-size="48" font-weight="800" fill="url(#gh)" filter="url(#gnv)">&amp; LLMs.</text>
+<text x="22" y="240" class="fc" font-size="8" font-weight="300" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="1" opacity="1">NeMo · TensorRT · Triton · RAPIDS · LoRA · RAG · RLHF</text>
+<text x="22" y="250" class="js" font-size="12" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA-Certified Associate. Validates foundational</text>
+<text x="22" y="268" class="js" font-size="12" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1">concepts for GenAI + LLM development with NVIDIA.</text>
+<text x="22" y="286" class="js" font-size="12" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1">Exam:</text>
+<rect x="66" y="274" width="62" height="16" fill="rgba(118,185,0,0.08)" stroke="none" stroke-width="1" rx="0"/>
+<text x="69" y="286" class="fc" font-size="10" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">50-60 MCQ</text>
+<text x="134" y="286" class="js" font-size="12" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1"> · 60 min · $125</text>
+<rect x="22" y="308" width="102" height="20" fill="none" stroke="rgba(118,185,0,0.28)" stroke-width="1" rx="0"/>
+<text x="73" y="322" class="fc" font-size="9" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">ML Foundations</text>
+<rect x="130" y="308" width="90" height="20" fill="none" stroke="rgba(0,212,255,0.28)" stroke-width="1" rx="0"/>
+<text x="175" y="322" class="fc" font-size="9" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">Transformers</text>
+<rect x="226" y="308" width="90" height="20" fill="none" stroke="rgba(118,185,0,0.28)" stroke-width="1" rx="0"/>
+<text x="271" y="322" class="fc" font-size="9" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">NVIDIA Tools</text>
+<rect x="322" y="308" width="78" height="20" fill="none" stroke="rgba(255,215,0,0.28)" stroke-width="1" rx="0"/>
+<text x="361" y="322" class="fc" font-size="9" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">Prompt Eng</text>
+<rect x="22" y="334" width="102" height="20" fill="none" stroke="rgba(180,78,255,0.28)" stroke-width="1" rx="0"/>
+<text x="73" y="348" class="fc" font-size="9" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">Trustworthy AI</text>
+<rect x="130" y="334" width="78" height="20" fill="none" stroke="rgba(255,107,157,0.28)" stroke-width="1" rx="0"/>
+<text x="169" y="348" class="fc" font-size="9" font-weight="400" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">RAG · RLHF</text>
+<text x="22" y="376" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">EXAM BLUEPRINT — TOPIC WEIGHTS</text>
+<rect x="22" y="384" width="356" height="10" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="22" y="384" width="356" height="10" rx="2" fill="url(#bnv)"><animate attributeName="width" from="0" to="356" dur="1.0s" fill="freeze"/></rect>
+<text x="384" y="393" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">Core ML &amp; AI 30%</text>
+<rect x="22" y="402" width="356" height="10" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="22" y="402" width="284" height="10" rx="2" fill="url(#bb)"><animate attributeName="width" from="0" to="284" dur="1.2s" fill="freeze"/></rect>
+<text x="384" y="411" class="fc" font-size="8" font-weight="400" fill="#00d4ff" text-anchor="start" letter-spacing="0" opacity="1">Software Dev 24%</text>
+<rect x="22" y="420" width="356" height="10" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="22" y="420" width="261" height="10" rx="2" fill="url(#by)"><animate attributeName="width" from="0" to="261" dur="1.4s" fill="freeze"/></rect>
+<text x="384" y="429" class="fc" font-size="8" font-weight="400" fill="#ffd700" text-anchor="start" letter-spacing="0" opacity="1">Experimentation 22%</text>
+<rect x="22" y="438" width="356" height="10" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="22" y="438" width="166" height="10" rx="2" fill="url(#bp)"><animate attributeName="width" from="0" to="166" dur="1.6s" fill="freeze"/></rect>
+<text x="384" y="447" class="fc" font-size="8" font-weight="400" fill="#b44eff" text-anchor="start" letter-spacing="0" opacity="1">Data Analysis 14%</text>
+<rect x="22" y="456" width="356" height="10" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="22" y="456" width="118" height="10" rx="2" fill="url(#br)"><animate attributeName="width" from="0" to="118" dur="1.8s" fill="freeze"/></rect>
+<text x="384" y="465" class="fc" font-size="8" font-weight="400" fill="#ff6b9d" text-anchor="start" letter-spacing="0" opacity="1">Trustworthy AI 10%</text>
+<rect x="490" y="104" width="288" height="380" fill="rgba(6,8,17,0.9)" stroke="rgba(118,185,0,0.15)" stroke-width="1" rx="0"/>
+<rect x="490" y="104" width="288" height="2" fill="#76b900" stroke="none" stroke-width="1" rx="0"/>
+<text x="634" y="132" class="fc" font-size="18" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="3" opacity="1" filter="url(#gnv)">NCA-GENL</text>
+<text x="634" y="148" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="2" opacity="1">NVIDIA Certified Associate</text>
+<text x="634" y="164" class="js" font-size="11" font-weight="500" fill="rgba(226,232,255,0.55)" text-anchor="middle" letter-spacing="0" opacity="1">Generative AI</text>
+<text x="634" y="178" class="js" font-size="11" font-weight="500" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">&amp; Large Language Models</text>
+<rect x="494" y="192" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="203" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">LEVEL</text>
+<text x="500" y="216" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">Associate</text>
+<rect x="494" y="226" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="237" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">QUESTIONS</text>
+<text x="500" y="250" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">50-60 MCQ</text>
+<rect x="494" y="260" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="271" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">DURATION</text>
+<text x="500" y="284" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">60 Minutes</text>
+<rect x="494" y="294" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="305" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">PRICE</text>
+<text x="500" y="318" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">$125 USD</text>
+<rect x="494" y="328" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="339" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">VALIDITY</text>
+<text x="500" y="352" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">2 Years</text>
+<rect x="494" y="362" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="373" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">LANGUAGE</text>
+<text x="500" y="386" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">English</text>
+<rect x="494" y="396" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="407" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">FORMAT</text>
+<text x="500" y="420" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">Online·Proctored</text>
+<rect x="494" y="430" width="280" height="32" fill="rgba(255,255,255,0.02)" stroke="rgba(118,185,0,0.07)" stroke-width="1" rx="0"/>
+<text x="500" y="441" class="fc" font-size="7" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">CREDENTIAL</text>
+<text x="500" y="454" class="js" font-size="10" font-weight="600" fill="rgba(226,232,232,0.72)" text-anchor="start" letter-spacing="0" opacity="1">Digital Badge</text>
+<rect x="498" y="468" width="272" height="24" fill="rgba(118,185,0,0.12)" stroke="rgba(118,185,0,0.35)" stroke-width="1" rx="0"/>
+<text x="634" y="484" class="fc" font-size="8" font-weight="500" fill="#76b900" text-anchor="middle" letter-spacing="1" opacity="1">REGISTER AT CERTIVERSE.COM</text>
+<text x="22" y="521" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">STACK</text>
+<text x="71" y="521" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA AI Stack</text>
+<line x1="199" y1="515" x2="778" y2="515" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="534" width="756" height="38" fill="rgba(118,185,0,0.07)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="534" width="3" height="38" fill="#76b900" stroke="none" stroke-width="1" rx="0"/>
+<text x="31" y="547" class="fc" font-size="7" font-weight="700" fill="#76b900" text-anchor="start" letter-spacing="3" opacity="1">APPLICATION</text>
+<text x="31" y="560" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">NeMo · NeMo Guardrails · Colang</text>
+<rect x="727" y="542" width="49" height="22" fill="none" stroke="#76b90033" stroke-width="1" rx="0"/>
+<text x="752" y="557" class="fc" font-size="7" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="1" opacity="1">BUILD</text>
+<rect x="22" y="576" width="756" height="38" fill="rgba(0,212,255,0.05)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="576" width="3" height="38" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="31" y="589" class="fc" font-size="7" font-weight="700" fill="#00d4ff" text-anchor="start" letter-spacing="3" opacity="1">INFERENCE</text>
+<text x="31" y="602" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">Triton Inference Server · TensorRT · TensorRT-LLM</text>
+<rect x="727" y="584" width="49" height="22" fill="none" stroke="#00d4ff33" stroke-width="1" rx="0"/>
+<text x="752" y="599" class="fc" font-size="7" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="1" opacity="1">SERVE</text>
+<rect x="22" y="618" width="756" height="38" fill="rgba(255,215,0,0.05)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="618" width="3" height="38" fill="#ffd700" stroke="none" stroke-width="1" rx="0"/>
+<text x="31" y="631" class="fc" font-size="7" font-weight="700" fill="#ffd700" text-anchor="start" letter-spacing="3" opacity="1">DATA</text>
+<text x="31" y="644" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">RAPIDS: cuDF · cuML · cuGraph · Dask-cuDF</text>
+<rect x="734" y="626" width="42" height="22" fill="none" stroke="#ffd70033" stroke-width="1" rx="0"/>
+<text x="755" y="641" class="fc" font-size="7" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="1" opacity="1">DATA</text>
+<rect x="22" y="660" width="756" height="38" fill="rgba(180,78,255,0.05)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="660" width="3" height="38" fill="#b44eff" stroke="none" stroke-width="1" rx="0"/>
+<text x="31" y="673" class="fc" font-size="7" font-weight="700" fill="#b44eff" text-anchor="start" letter-spacing="3" opacity="1">HARDWARE</text>
+<text x="31" y="686" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA GPUs · CUDA · NGC · AI Enterprise</text>
+<rect x="727" y="668" width="49" height="22" fill="none" stroke="#b44eff33" stroke-width="1" rx="0"/>
+<text x="752" y="683" class="fc" font-size="7" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="1" opacity="1">POWER</text>
+<rect x="22" y="708" width="756" height="26" fill="rgba(118,185,0,0.03)" stroke="rgba(118,185,0,0.1)" stroke-width="1" rx="0"/>
+<text x="30" y="725" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.55)" text-anchor="start" letter-spacing="0" opacity="1">"Bots Only Serve Awesome Data"  →  NeMo → TensorRT → Triton → RAPIDS</text>
+<text x="22" y="757" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">BLUEPRINT</text>
+<text x="99" y="757" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Exam Topic Breakdown</text>
+<line x1="267" y1="751" x2="778" y2="751" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="770" width="756" height="216" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="770" width="756" height="26" fill="rgba(118,185,0,0.06)" stroke="none" stroke-width="1" rx="0"/>
+<line x1="22" y1="795" x2="778" y2="795" stroke="rgba(255,255,255,0.055)" stroke-width="1"/>
+<text x="28" y="787" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.5)" text-anchor="start" letter-spacing="2" opacity="1">TOPIC</text>
+<text x="242" y="787" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.5)" text-anchor="start" letter-spacing="2" opacity="1">WEIGHT</text>
+<text x="362" y="787" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.5)" text-anchor="start" letter-spacing="2" opacity="1">KEY CONCEPTS</text>
+<text x="620" y="787" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.5)" text-anchor="start" letter-spacing="2" opacity="1">PRIORITY</text>
+<text x="28" y="818" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.78)" text-anchor="start" letter-spacing="0" opacity="1">Core ML &amp; AI Knowledge</text>
+<rect x="240" y="810" width="120" height="6" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="240" y="810" width="120" height="6" rx="2" fill="url(#bnv)"><animate attributeName="width" from="0" to="120" dur="1.2s" fill="freeze"/></rect>
+<text x="366" y="818" class="fc" font-size="10" font-weight="700" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">30%</text>
+<text x="394" y="818" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">Neural nets · Transformers · LoRA</text>
+<rect x="726" y="806" width="48" height="18" fill="none" stroke="#76b90044" stroke-width="1" rx="0"/>
+<text x="750" y="818" class="fc" font-size="8" font-weight="400" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">HIGH ⬆</text>
+<line x1="22" y1="832" x2="778" y2="832" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+<text x="28" y="854" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.78)" text-anchor="start" letter-spacing="0" opacity="1">Software Development</text>
+<rect x="240" y="846" width="120" height="6" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="240" y="846" width="96" height="6" rx="2" fill="url(#bb)"><animate attributeName="width" from="0" to="96" dur="1.3s" fill="freeze"/></rect>
+<text x="366" y="854" class="fc" font-size="10" font-weight="700" fill="#00d4ff" text-anchor="start" letter-spacing="0" opacity="1">24%</text>
+<text x="394" y="854" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">NeMo · Triton · TensorRT</text>
+<rect x="726" y="842" width="48" height="18" fill="none" stroke="#00d4ff44" stroke-width="1" rx="0"/>
+<text x="750" y="854" class="fc" font-size="8" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">HIGH ⬆</text>
+<line x1="22" y1="868" x2="778" y2="868" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+<text x="28" y="890" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.78)" text-anchor="start" letter-spacing="0" opacity="1">Experimentation</text>
+<rect x="240" y="882" width="120" height="6" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="240" y="882" width="88" height="6" rx="2" fill="url(#by)"><animate attributeName="width" from="0" to="88" dur="1.5s" fill="freeze"/></rect>
+<text x="366" y="890" class="fc" font-size="10" font-weight="700" fill="#ffd700" text-anchor="start" letter-spacing="0" opacity="1">22%</text>
+<text x="394" y="890" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">Fine-tuning · Prompt Eng · Evaluation</text>
+<rect x="726" y="878" width="48" height="18" fill="none" stroke="#ffd70044" stroke-width="1" rx="0"/>
+<text x="750" y="890" class="fc" font-size="8" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">HIGH ⬆</text>
+<line x1="22" y1="904" x2="778" y2="904" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+<text x="28" y="926" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.78)" text-anchor="start" letter-spacing="0" opacity="1">Data Analysis</text>
+<rect x="240" y="918" width="120" height="6" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="240" y="918" width="56" height="6" rx="2" fill="url(#bp)"><animate attributeName="width" from="0" to="56" dur="1.6s" fill="freeze"/></rect>
+<text x="366" y="926" class="fc" font-size="10" font-weight="700" fill="#b44eff" text-anchor="start" letter-spacing="0" opacity="1">14%</text>
+<text x="394" y="926" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">RAPIDS · cuDF · cuML</text>
+<rect x="732" y="914" width="42" height="18" fill="none" stroke="#b44eff44" stroke-width="1" rx="0"/>
+<text x="753" y="926" class="fc" font-size="8" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">MED →</text>
+<line x1="22" y1="940" x2="778" y2="940" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+<text x="28" y="962" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.78)" text-anchor="start" letter-spacing="0" opacity="1">Trustworthy AI</text>
+<rect x="240" y="954" width="120" height="6" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="240" y="954" width="40" height="6" rx="2" fill="url(#br)"><animate attributeName="width" from="0" to="40" dur="1.8s" fill="freeze"/></rect>
+<text x="366" y="962" class="fc" font-size="10" font-weight="700" fill="#ff6b9d" text-anchor="start" letter-spacing="0" opacity="1">10%</text>
+<text x="394" y="962" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">Guardrails · Colang · Fairness</text>
+<rect x="732" y="950" width="42" height="18" fill="none" stroke="#ff6b9d44" stroke-width="1" rx="0"/>
+<text x="753" y="962" class="fc" font-size="8" font-weight="400" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">MED →</text>
+<text x="22" y="1007" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">MODULES</text>
+<text x="85" y="1007" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Study Modules</text>
+<line x1="197" y1="1001" x2="778" y2="1001" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="1020" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="1124" width="246" height="2" fill="#76b900" stroke="none" stroke-width="1" rx="0"/>
+<text x="262" y="1034" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="end" letter-spacing="0" opacity="1">30%</text>
+<text x="145" y="1058" font-size="16" text-anchor="middle">🧠</text>
+<text x="145" y="1074" class="js" font-size="11" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">ML Foundations</text>
+<rect x="27" y="1080" width="56" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="55" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Backprop</text>
+<rect x="86" y="1080" width="50" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="111" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">CNN/RNN</text>
+<rect x="139" y="1080" width="68" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="173" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Activation</text>
+<text x="145" y="1112" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">Mnemonic: SUSS-R / NALOB</text>
+<rect x="276" y="1020" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="276" y="1124" width="246" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="516" y="1034" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="end" letter-spacing="0" opacity="1">20%</text>
+<text x="399" y="1058" font-size="16" text-anchor="middle">⚡</text>
+<text x="399" y="1074" class="js" font-size="11" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">Transformers</text>
+<rect x="281" y="1080" width="92" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="327" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Self-Attention</text>
+<rect x="376" y="1080" width="38" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="395" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Q·K·V</text>
+<rect x="417" y="1080" width="74" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="454" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">BERT vs GPT</text>
+<text x="399" y="1112" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">Mnemonic: Queens Keep Values</text>
+<rect x="530" y="1020" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="530" y="1124" width="246" height="2" fill="#76b900" stroke="none" stroke-width="1" rx="0"/>
+<text x="770" y="1034" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="end" letter-spacing="0" opacity="1">25%</text>
+<text x="653" y="1058" font-size="16" text-anchor="middle">🎮</text>
+<text x="653" y="1074" class="js" font-size="11" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">NVIDIA Tools</text>
+<rect x="535" y="1080" width="32" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="551" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">NeMo</text>
+<rect x="570" y="1080" width="44" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="592" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Triton</text>
+<rect x="617" y="1080" width="56" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="645" y="1091" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">TensorRT</text>
+<text x="653" y="1112" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">Build → Serve → Optimize</text>
+<rect x="22" y="1134" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="22" y="1238" width="246" height="2" fill="#ffd700" stroke="none" stroke-width="1" rx="0"/>
+<text x="262" y="1148" class="fc" font-size="9" font-weight="700" fill="#ffd700" text-anchor="end" letter-spacing="0" opacity="1">15%</text>
+<text x="145" y="1172" font-size="16" text-anchor="middle">🔧</text>
+<text x="145" y="1188" class="js" font-size="11" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">Prompt Eng + RAG</text>
+<rect x="27" y="1194" width="62" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="58" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Zero-shot</text>
+<rect x="92" y="1194" width="56" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="120" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Few-shot</text>
+<rect x="151" y="1194" width="26" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="164" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">CoT</text>
+<text x="145" y="1226" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">Prompt · Retrieve · Align</text>
+<rect x="276" y="1134" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="276" y="1238" width="246" height="2" fill="#ff6b9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="516" y="1148" class="fc" font-size="9" font-weight="700" fill="#ff6b9d" text-anchor="end" letter-spacing="0" opacity="1">5%</text>
+<text x="399" y="1172" font-size="16" text-anchor="middle">🔐</text>
+<text x="399" y="1188" class="js" font-size="11" font-weight="700" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">Trustworthy AI</text>
+<rect x="281" y="1194" width="68" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="315" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Guardrails</text>
+<rect x="352" y="1194" width="44" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="374" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Colang</text>
+<rect x="399" y="1194" width="32" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="415" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">Bias</text>
+<text x="399" y="1226" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">Mnemonic: FTP-SAR</text>
+<rect x="530" y="1134" width="246" height="106" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="530" y="1238" width="246" height="2" fill="#b44eff" stroke="none" stroke-width="1" rx="0"/>
+<text x="770" y="1148" class="fc" font-size="9" font-weight="700" fill="#b44eff" text-anchor="end" letter-spacing="0" opacity="1">5%</text>
+<text x="653" y="1172" font-size="16" text-anchor="middle">📊</text>
+<text x="653" y="1188" class="js" font-size="11" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">Data Analysis</text>
+<rect x="535" y="1194" width="32" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="551" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">cuDF</text>
+<rect x="570" y="1194" width="32" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="586" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">cuML</text>
+<rect x="605" y="1194" width="50" height="14" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" rx="0"/>
+<text x="630" y="1205" class="fc" font-size="7" font-weight="400" fill="rgba(226,232,255,0.3)" text-anchor="middle" letter-spacing="0" opacity="1">cuGraph</text>
+<text x="653" y="1226" class="fc" font-size="7" font-weight="400" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="0" opacity="1">cu = "CUDA Unleashed"</text>
+<text x="22" y="1275" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">CHEAT</text>
+<text x="71" y="1275" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Quick-Reference — Tool = Purpose</text>
+<line x1="335" y1="1269" x2="778" y2="1269" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="1288" width="756" height="36" fill="rgba(118,185,0,0.03)" stroke="rgba(118,185,0,0.1)" stroke-width="1" rx="0"/>
+<text x="30" y="1303" class="fc" font-size="8" font-weight="400" fill="rgba(118,185,0,0.45)" text-anchor="start" letter-spacing="2" opacity="1">MASTER MNEMONIC:</text>
+<text x="30" y="1316" class="fc" font-size="9" font-weight="400" fill="#76b900" text-anchor="start" letter-spacing="0" opacity="1">"Bots Only Serve Awesome Data"  →  NeMo (Build) → TensorRT (Opt) → Triton (Serve) → RAPIDS (Data)</text>
+<rect x="22" y="1332" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#76b90022" stroke-width="1" rx="0"/>
+<rect x="22" y="1332" width="42" height="30" fill="#76b90018" stroke="none" stroke-width="1" rx="0"/>
+<text x="43" y="1351" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">NeMo</text>
+<text x="72" y="1351" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">BUILD + fine-tune LLMs</text>
+<rect x="404" y="1332" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#00d4ff22" stroke-width="1" rx="0"/>
+<rect x="404" y="1332" width="56" height="30" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="432" y="1351" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">Triton</text>
+<text x="468" y="1351" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">SERVE models at scale</text>
+<rect x="22" y="1366" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#ffd70022" stroke-width="1" rx="0"/>
+<rect x="22" y="1366" width="70" height="30" fill="#ffd70018" stroke="none" stroke-width="1" rx="0"/>
+<text x="57" y="1385" class="fc" font-size="9" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">TensorRT</text>
+<text x="100" y="1385" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">OPTIMIZE inference speed</text>
+<rect x="404" y="1366" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#ffd70022" stroke-width="1" rx="0"/>
+<rect x="404" y="1366" width="98" height="30" fill="#ffd70018" stroke="none" stroke-width="1" rx="0"/>
+<text x="453" y="1385" class="fc" font-size="9" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">TensorRT-LLM</text>
+<text x="510" y="1385" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">OPTIMIZE LLMs (KV-cache)</text>
+<rect x="22" y="1400" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#b44eff22" stroke-width="1" rx="0"/>
+<rect x="22" y="1400" width="91" height="30" fill="#b44eff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="67" y="1419" class="fc" font-size="9" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">RAPIDS/cuDF</text>
+<text x="121" y="1419" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">GPU DataFrames = drop-in Pandas</text>
+<rect x="404" y="1400" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#b44eff22" stroke-width="1" rx="0"/>
+<rect x="404" y="1400" width="42" height="30" fill="#b44eff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="425" y="1419" class="fc" font-size="9" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">cuML</text>
+<text x="454" y="1419" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">GPU Scikit-learn algorithms</text>
+<rect x="22" y="1434" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#b44eff22" stroke-width="1" rx="0"/>
+<rect x="22" y="1434" width="63" height="30" fill="#b44eff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="53" y="1453" class="fc" font-size="9" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">cuGraph</text>
+<text x="93" y="1453" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">GPU graph analytics (NetworkX)</text>
+<rect x="404" y="1434" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#76b90022" stroke-width="1" rx="0"/>
+<rect x="404" y="1434" width="35" height="30" fill="#76b90018" stroke="none" stroke-width="1" rx="0"/>
+<text x="421" y="1453" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">NGC</text>
+<text x="447" y="1453" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">Model + container catalog</text>
+<rect x="22" y="1468" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#ff6b9d22" stroke-width="1" rx="0"/>
+<rect x="22" y="1468" width="119" height="30" fill="#ff6b9d18" stroke="none" stroke-width="1" rx="0"/>
+<text x="81" y="1487" class="fc" font-size="9" font-weight="700" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">NeMo Guardrails</text>
+<text x="149" y="1487" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">Safety rails for LLM apps</text>
+<rect x="404" y="1468" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#ff6b9d22" stroke-width="1" rx="0"/>
+<rect x="404" y="1468" width="56" height="30" fill="#ff6b9d18" stroke="none" stroke-width="1" rx="0"/>
+<text x="432" y="1487" class="fc" font-size="9" font-weight="700" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">Colang</text>
+<text x="468" y="1487" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">Language for guardrail rules</text>
+<rect x="22" y="1502" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#00d4ff22" stroke-width="1" rx="0"/>
+<rect x="22" y="1502" width="42" height="30" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="43" y="1521" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">LoRA</text>
+<text x="72" y="1521" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">Efficient fine-tuning (small matrices)</text>
+<rect x="404" y="1502" width="374" height="30" fill="rgba(255,255,255,0.015)" stroke="#00d4ff22" stroke-width="1" rx="0"/>
+<rect x="404" y="1502" width="35" height="30" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="421" y="1521" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">RAG</text>
+<text x="447" y="1521" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.6)" text-anchor="start" letter-spacing="0" opacity="1">Retrieve external knowledge → reduce hallucination</text>
+<text x="22" y="1563" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">TIPS</text>
+<text x="64" y="1563" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Exam Day Tips — High Yield</text>
+<line x1="280" y1="1557" x2="778" y2="1557" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="1576" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1576" width="24" height="24" fill="#76b90018" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1592" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">1</text>
+<text x="52" y="1592" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">40% NVIDIA tools — NeMo/Triton/TensorRT/RAPIDS. Know exactly what each does.</text>
+<rect x="22" y="1604" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1604" width="24" height="24" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1620" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">2</text>
+<text x="52" y="1620" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">Attention: softmax(QKᵀ / √d_k) × V — likely appears on exam.</text>
+<rect x="22" y="1632" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1632" width="24" height="24" fill="#ffd70018" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1648" class="fc" font-size="9" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">3</text>
+<text x="52" y="1648" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">TensorRT = any model. TensorRT-LLM = LLMs only (KV-cache, in-flight batching).</text>
+<rect x="22" y="1660" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1660" width="24" height="24" fill="#76b90018" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1676" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">4</text>
+<text x="52" y="1676" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">cuDF/Pandas same API. Just import cudf. GPU-accelerated, minimal code changes.</text>
+<rect x="22" y="1688" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1688" width="24" height="24" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1704" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">5</text>
+<text x="52" y="1704" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">Triton: dynamic batching = #1 production feature. Supports HTTP + gRPC.</text>
+<rect x="22" y="1716" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1716" width="24" height="24" fill="#ff6b9d18" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1732" class="fc" font-size="9" font-weight="700" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">6</text>
+<text x="52" y="1732" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">NeMo Guardrails + Colang — 2-3 questions. Topical/Safety/Security/Fact rails.</text>
+<rect x="22" y="1744" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1744" width="24" height="24" fill="#ffd70018" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1760" class="fc" font-size="9" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">7</text>
+<text x="52" y="1760" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">BERT = encoder = understanding/classification. GPT = decoder = generation.</text>
+<rect x="22" y="1772" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1772" width="24" height="24" fill="#b44eff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1788" class="fc" font-size="9" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">8</text>
+<text x="52" y="1788" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">RAG for external/live knowledge. Fine-tuning for style/behavior change.</text>
+<rect x="22" y="1800" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1800" width="24" height="24" fill="#00d4ff18" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1816" class="fc" font-size="9" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">9</text>
+<text x="52" y="1816" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">RLHF: Pre-train → SFT → Reward Model → PPO. How ChatGPT was aligned.</text>
+<rect x="22" y="1828" width="756" height="24" fill="rgba(255,255,255,0.01)" stroke="rgba(255,255,255,0.04)" stroke-width="1" rx="0"/>
+<rect x="22" y="1828" width="24" height="24" fill="#76b90018" stroke="none" stroke-width="1" rx="0"/>
+<text x="34" y="1844" class="fc" font-size="9" font-weight="700" fill="#76b900" text-anchor="middle" letter-spacing="0" opacity="1">10</text>
+<text x="52" y="1844" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.65)" text-anchor="start" letter-spacing="0" opacity="1">~1 min per question. Flag + return. Don't overthink distractor answers.</text>
+<text x="22" y="1883" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">SCHEDULE</text>
+<text x="92" y="1883" class="js" font-size="14" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">2-Day Sprint Plan</text>
+<line x1="236" y1="1877" x2="778" y2="1877" stroke="url(#fl)" stroke-width="1"/>
+<rect x="22" y="1896" width="374" height="68" fill="rgba(255,255,255,0.02)" stroke="#76b90022" stroke-width="1" rx="0"/>
+<rect x="22" y="1896" width="374" height="2" fill="#76b900" stroke="none" stroke-width="1" rx="0"/>
+<text x="30" y="1912" class="fc" font-size="8" font-weight="700" fill="#76b900" text-anchor="start" letter-spacing="3" opacity="1">DAY 1</text>
+<text x="92" y="1912" class="js" font-size="12" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">Foundations — Sections 1+2</text>
+<text x="30" y="1930" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1">ML + Neural Nets (30%) · Transformers NLP (20%) · All mnemonics · 20 practice Qs</text>
+<text x="30" y="1946" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.35)" text-anchor="start" letter-spacing="0" opacity="1">20 practice Qs</text>
+<text x="390" y="1958" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="end" letter-spacing="0" opacity="1">~4-5 hrs</text>
+<rect x="404" y="1896" width="374" height="68" fill="rgba(255,255,255,0.02)" stroke="#00d4ff22" stroke-width="1" rx="0"/>
+<rect x="404" y="1896" width="374" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="412" y="1912" class="fc" font-size="8" font-weight="700" fill="#00d4ff" text-anchor="start" letter-spacing="3" opacity="1">DAY 2</text>
+<text x="474" y="1912" class="js" font-size="12" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA Stack — Sections 3+4</text>
+<text x="412" y="1930" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.45)" text-anchor="start" letter-spacing="0" opacity="1">NVIDIA Tools (40%) · Trustworthy AI (10%) · 50-question mock exam · Final review</text>
+<text x="412" y="1946" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.35)" text-anchor="start" letter-spacing="0" opacity="1">Final review</text>
+<text x="772" y="1958" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="end" letter-spacing="0" opacity="1">~4-5 hrs</text>
+<line x1="0" y1="1976" x2="800" y2="1976" stroke="rgba(118,185,0,0.15)" stroke-width="1"/>
+<text x="22" y="2005" class="fc" font-size="10" font-weight="400" fill="rgba(118,185,0,0.4)" text-anchor="start" letter-spacing="0" opacity="1">"GPU-accelerated intelligence. Certified by NVIDIA."</text>
+<text x="778" y="2005" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="end" letter-spacing="0" opacity="1">rpaut03l / NCA-GENL</text>
+</svg>
