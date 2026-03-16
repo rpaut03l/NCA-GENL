@@ -206,8 +206,8 @@ Input → [Embedding + Positional Encoding] → [Encoder Stack] → [Decoder Sta
 │    NeMo (Build & Fine-tune LLMs)            │
 ├─────────────────────────────────────────────┤
 │            INFERENCE LAYER                  │
-│    Triton Inference Server (Serve models)    │
-│    TensorRT (Optimize for GPU inference)     │
+│    Triton Inference Server (Serve models)   │
+│    TensorRT (Optimize for GPU inference)    │
 ├─────────────────────────────────────────────┤
 │            DATA LAYER                       │
 │    RAPIDS: cuDF, cuML, cuGraph              │
