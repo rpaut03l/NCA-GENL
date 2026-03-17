@@ -679,4 +679,3 @@ A) 1: Enc-Dec, 2: Decoder, 3: Encoder | B) 1: Decoder, 2: Encoder, 3: Enc-Dec | 
 
 ---
 
-*Generated with [Claude Code](https://claude.com/claude-code)*
